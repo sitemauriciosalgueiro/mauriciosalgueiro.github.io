@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /trabalhos
+Allow: /quadros
+Allow: /todos-os-projetos
+Allow: /contato
+Allow: /todos-os-quadros
+Allow: /projetos-concluidos
+Allow: /orcamento
+Allow: /
+Allow: /temas
+

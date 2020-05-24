@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+.modal-body {
+    width: auto;
+}
+/*.works div.container div.works-content {
+    min-height: 418px;
+}
+*/
+@media (min-width: 980px) and (max-width: 1200px) {
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.modal {
+	    left: 50%;
+	    width: 70%;
+	}
+	
+	.modal-body {
+	    width: auto;
+	}
+	
+	.modal-body img {
+	    width: 300px;
+	}
+}
+@media (max-width: 767px) {
+	.modal {
+	    left: 50%;
+	    width: 70%;
+	}
+	
+	.modal-body {
+	    width: auto;
+	}
+	
+	.modal-body img {
+	    width: 300px;
+	}
+}
+@media (max-width: 690px) {
+	.modal {
+	    left: 70%;
+	    width: 70%;
+	}
+	
+	.modal-body {
+	    width: auto;
+	}
+	
+	.modal-body img {
+	    width: 300px;
+	}
+}
