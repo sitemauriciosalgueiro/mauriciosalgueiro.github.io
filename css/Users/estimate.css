@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+.form-fieldset div{
+	width: 100%;
+}
+.form-fieldset .input{
+	margin-bottom: 20px;
+}
+.form-fieldset .input label{
+	margin-right: 20px;
+}
+.border_line_left{
+	border-left: 1px solid #E4E4E4;
+	padding-left: 20px;
+}
+.fallow-twitter{
+	margin-top: 60px;
+}
+
+#feedbackUserEstimate{
+	display: none;	
+}

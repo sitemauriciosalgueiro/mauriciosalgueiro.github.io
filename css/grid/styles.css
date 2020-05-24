@@ -1,0 +1,142 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {
+		
+	}
+
+/* ============================= */
+/* ! Layout for 1024 version   */
+/* ============================= */
+@media handheld, only screen and (max-width: 1024px) {
+
+	.img_orbit, #orbit_grid, #orbit_grid #featured, .orbit-wrapper, .orbit-wrapper .content{
+		width: 754px!important;
+	}
+	
+	.tn3-gallery,.tn3-image,.tn3-albums ,.tn3-controls-bg{
+	
+	    width: 754px!important;
+	
+	}
+	.tn3-gallery,.tn3-albums,.tn3-image-in, .tn3-image{
+		height: 400px!important;
+	}
+	.container{padding-left: 10px!important;padding-right: 10px!important;width: 994px!important;}
+	.container #twtr-widget-1 .twtr-doc{width: 220px!important;}
+	.container .threecol #twtr-widget-1 .twtr-doc{width: 180px!important;}
+	.container .fb-comments,
+	.container .fb-comments iframe{width: 754px!important;}
+	.container .fb-like-box,
+	.container .fb-like-box iframe{width: 220px!important;}	
+	.tn3-thumbs, .tn3-thumbs div {width: 300px!important;}
+	
+	.leftOnMax1024{
+		margin-left: 66px;
+	}
+	.hideOnMax1024{
+		display: none;
+	}
+	.two-highlight {
+    	width: 140px;
+	}
+
+}
+/* ============================= */
+/* ! Layout for 800 version   */
+/* ============================= */
+@media handheld, only screen and (max-width: 800px) {
+
+	.img_orbit, #orbit_grid, #orbit_grid #featured, .orbit-wrapper, .orbit-wrapper .content{
+		width: 280px!important;
+	}
+	.tn3-gallery,.tn3-image,.tn3-albums ,.tn3-controls-bg{
+	
+	    width: 400px!important;
+	
+	}
+	.tn3-gallery,.tn3-albums,.tn3-image-in, .tn3-image{
+		height: 300px!important;
+	}
+		.tn3-thumbs, .tn3-thumbs div {width: 200px!important;}
+
+	.container{padding-left: 10px!important;padding-right: 10px!important;width: 764px!important;}
+	.container #twtr-widget-1 .twtr-doc{width: 170px!important;}
+	.container .threecol #twtr-widget-1 .twtr-doc{width: 140px!important;}
+	.container .fb-comments,
+	.container .fb-comments iframe{width: 604px!important;}
+	.container .fb-like-box,
+	.container .fb-like-box iframe,
+	.container .fb-like-box iframe .fbConnectWidgetTopmost{width: 170px!important;}
+	
+	.hideOnMax800{
+		display: none;
+	}
+	
+	.leftOnMax1024{
+		margin-left: 33px;
+	}
+	
+	.two-highlight {
+    	width: 140px;
+	}
+}
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+	
+	.img_orbit, #orbit_grid, #orbit_grid #featured, .orbit-wrapper, .orbit-wrapper .content{
+		width: 704px!important;
+	}
+	.tn3-gallery,.tn3-albums,.tn3-image-in, .tn3-image{
+	height: 400px!important;
+	}
+	.tn3-gallery,.tn3-image,.tn3-albums ,.tn3-controls-bg{
+	
+	    width: 600px!important;
+	
+	}
+		.tn3-thumbs, .tn3-thumbs div {width: 300px!important;}
+	.container{padding-left: 10px!important;padding-right: 10px!important;width: 734px!important;}
+	.container #twtr-widget-1 .twtr-doc{width: 680px!important;}
+	.container .fb-comments,
+	.container .fb-comments iframe{width: 704px!important;}
+	.container .fb-like-box,
+	.container .fb-like-box iframe,
+	.container .fb-like-box iframe .fbConnectWidgetTopmost{width: 704px!important;}
+	
+	.hideOnMobile{
+		display: none;
+	}
+	.two-highlight {
+    	width: 140px;
+	}
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+	
+	.img_orbit, #orbit_grid, #orbit_grid #featured, .orbit-wrapper, .orbit-wrapper .content{
+		width: 300px!important;
+	}
+	
+	.hideOnMobile{
+		display: none;
+	}
+}

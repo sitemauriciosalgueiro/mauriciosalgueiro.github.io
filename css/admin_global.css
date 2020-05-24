@@ -1,0 +1,45 @@
+/**********************************************************************
+* Global Styles
+*
+***/
+body { 
+	font-family: Helvetica, Arial, sans-serif !important;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.boxe-content{
+	background-color: #EFF8F9;
+}
+
+.container table tr.altrow{
+	background-color: #EAEAEA;
+}
+
+.off{
+	display: none;
+}
+
+.on{
+	display: block;
+}
+
+.fL{
+	float: left;
+}
+
+.fR{
+	float: right;
+}
+
+.line{
+	border-bottom: 1px solid #EEEEEE;
+	padding-bottom: 17px;
+}

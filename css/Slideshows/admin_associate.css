@@ -1,0 +1,61 @@
+#info {
+	display: block;
+	padding: 10px; margin-bottom: 20px;
+	border: 1px solid #333;
+	background-color: #efefef;
+}
+
+#test-list {
+	list-style: none;
+}
+
+#test-list li {
+	padding: 20px 10px; 
+	margin-bottom: 20px;
+}
+
+#test-list li img.handle {
+	margin-right: 20px;
+	cursor: move;
+}
+#test-list li .fL{
+ 	/*height: 130px;*/
+ 	width: 20px;
+}
+#test-list li .fR{
+	width: 95%;
+}
+#test-list li .textslide{
+	width: 80%;
+	float:left;
+}
+
+#test-list li .textslide .title-slideshow,
+#test-list li .textslide .topic-slideshow{
+	width: 45%;
+}
+
+#test-list li .textslide textarea{
+	width: 91%;
+}
+#test-list li .textslide input{
+	margin-bottom: 20px;
+	/*width: 25%;*/
+}
+#test-list li .imageslide{
+	float:left;
+	margin-right: 10px;
+	/*width: 25%;*/
+}
+.nomargin{
+	margin: 0 !important;
+}
+form div,form{
+	clear: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+    margin: 0;
+}

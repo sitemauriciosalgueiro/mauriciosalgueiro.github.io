@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+form div{
+    clear: none;
+    margin-bottom: 0;
+    padding: 0;
+    vertical-align: text-top;	
+}
+.background{
+   background-color: #EFF8F9;
+   border-bottom: 1px solid #D8D9D3;
+   border-right: 1px solid #D8D9D3;
+}
+
+.form-fieldset .input {
+    margin-bottom: 20px;
+}
+
+.form-fieldset div {
+    width: 80%px;
+    margin-bottom: 20px;
+}

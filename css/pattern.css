@@ -1,0 +1,270 @@
+/**Classes para texto*/
+body{
+	font-family:font-family: arial, Helvetica,sans-serif;
+}
+
+p {
+    color: #555555;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
+}
+/**Fim Classes para texto*/
+
+/**Classes para links*/
+a {
+    color: #2580A2;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/**FIM Classes para links*/
+
+/**Classes para espacamento*/
+
+.nomargin {
+    margin: 0 !important;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+.fL {
+    float: left !important;
+}
+.fR {
+    float: right !important;
+}
+
+.margin_top {
+	margin-top: 20px!important; 
+}
+
+div.container.margin_top{
+	margin-top: 45px!important;
+}
+/* ============================= */
+/* ! Layout for 800 version   */
+/* ============================= */
+@media handheld, only screen and (max-width: 800px) {
+
+	div.container.margin_top{
+		margin-top: 15px !important;
+	}
+
+}
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+	
+	div.container.margin_top{
+		margin-top: 15px !important;
+	}
+	
+}
+
+.margin_right {
+	margin-right: 20px; 
+}
+
+.padding-top {
+	padding-top: 20px; 
+}
+
+.padding-left{
+	padding-left: 20px;
+}
+
+.padding-right{
+	padding-right: 20px;
+}
+
+.border_line{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-top: 1px solid #E4E4E4;
+	padding: 2px;
+}
+.margin_bottom {
+	margin-bottom: 20px;
+}
+
+/*Classes para background*/
+.background{
+   background-color: #EFF8F9;
+   border-bottom: 1px solid #D8D9D3;
+   border-right: 1px solid #D8D9D3;
+}
+
+/**Classes para msgs do sistema*/
+div.alert {
+    background: url("/img/ico_feedback_alert.gif") no-repeat scroll 1.25em center #FEFFC0;
+    border-color: #FEFFC0 #FFE299 #FFE299 #FEFFC0;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 0.83em;
+    padding: 1.66em 1.66em 1.66em 6.67em;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/**Classes para formatar forms*/
+
+.form-fieldset div,
+.form-fieldset input,
+.form-fieldset .input{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+/* ============================= */
+/* ! Layout for 1024 version   */
+/* ============================= */
+@media handheld, only screen and (max-width: 1024px) {
+	
+.form-fieldset div,
+.form-fieldset input,
+.form-fieldset .input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+}
+/* ============================= */
+/* ! Layout for 800 version   */
+/* ============================= */
+@media handheld, only screen and (max-width: 800px) {
+	
+	div.threecol .form-fieldset div,
+	div.threecol .form-fieldset input,
+	div.threecol .form-fieldset .input{
+	    width: 100%;
+	    margin-bottom: 10px;
+	}
+	
+}
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+/******************************************************/
+
+
+/**Classes para titulos*/
+.materia-titulo h1 {
+    color: #333333;
+    font-size: 29px;
+    font-weight: bold;
+    letter-spacing: -0.06em;
+}
+.materia-titulo h2 {
+    color: #929292;
+    font-size: 19px;
+    font-weight: normal;
+    letter-spacing: -0.01em;
+    line-height: 1.2em;
+    padding-top: 0.3em;
+}
+.header-materia{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.text-title{
+    color: #333333;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -0.06em;
+}
+/**FIM Classes para titulos*/
+
+/**Classes para buttons*/
+.button {
+	display: inline-block;
+	vertical-align: baseline;
+	margin: 0 2px 12px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 700 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	color: #d9eef7;
+	border: solid 1px #0076a3;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover, .button:active {
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
+.button:active {
+	position: relative;
+	top: 1px;
+	color: #80bed6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+	background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+}
+.paging .button{
+	cursor: default;
+}
+.paging .button a{
+	text-align: center;
+	text-decoration: none;
+	font: Arial, Helvetica, sans-serif;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	color: #d9eef7;
+}
+.paging .current,
+.paging .current:hover,
+.paging .current:active{
+	cursor: default;
+	text-align: center;
+	text-decoration: none;
+	font: Arial, Helvetica, sans-serif;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	background: #123D6B !important;
+	color: #d9eef7;
+}
+.paging .disabled,
+.paging .disabled:hover,
+.paging .disabled:active{
+	cursor: default;
+	text-align: center;
+	text-decoration: none;
+	font: Arial, Helvetica, sans-serif;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	background: #EDE8E8 !important;
+	border: solid 1px #C5C5C5;
+	color: #EDE8E5;
+}
+/**FIM Classes para buttons*/

@@ -1,0 +1,364 @@
+/**
+* Barra do topo
+*/
+.header_top {
+	width: auto;
+	background: none repeat scroll 0 0 #FFFFFF;
+ 	border-bottom: 1px solid #D8D9D3;
+    display: block;
+    color: #2580a2 !important;
+    height: 30px;
+}
+.share {
+	padding-top:5px;
+	height: 20px;
+	overflow:hidden;
+}
+.share div {
+    float: right;
+}
+.share div.facebook {
+	margin-left: 14px;
+	height: 20px !important;
+	overflow:hidden !important;
+}
+.share div.facebook #facebook-like .fb_edge_comment_widget,
+.share div.facebook #facebook-like .fb_iframe_widget{
+	display: none !important;
+}
+.share div.orkut {
+	margin-left: 14px;
+	width: 70px;
+}
+.share div.twitter {
+	width:145px !important;
+	overflow:hidden;
+	color: #FFFFFF;
+}
+.share div.twitter a{
+	color: #FFFFFF !important;
+}
+.menu_top li.faveicon_top a{
+ 	border-left: none;
+ 	padding-top: 5px;
+}
+.menu_top ul{
+    list-style: none outside none;
+    height: 30px;
+}
+.menu_top li{
+    float: left;
+    padding: 0;
+}
+.menu_top li a {
+    line-height: 30px;
+    padding: 0 15px;
+    color:#2580a2;
+}
+.menu_top ul li.faveicon_top{
+	margin-top:5px;
+}
+
+.menu_top ul{
+	margin: 0;
+}
+/* ============================= */
+/* ! Layout for 1024 version   */
+/* ============================= */
+@media handheld, only screen and (max-width: 1024px) {
+
+
+}
+/* ============================= */
+/* ! Layout for 800 version   */
+/* ============================= */
+@media handheld, only screen and (max-width: 800px) {
+
+	#div-gpt-ad-1324243365426-1 {
+		/*margin: 0 auto;*/
+		display: none;
+	}
+
+}
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+	.menu_top{
+		margin: 0 auto;
+		width: 390px;
+	}
+	.share, #div-gpt-ad-1324243365426-1 {
+		/*margin: 0 auto;*/
+		display: none;
+	}
+	
+}
+/**
+* FIM - Barra do topo
+*/
+ 
+/*Header logo*/
+.topo-header {
+   /*background-color: #EFF8F9;*/
+	color: #0086CF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.logo {
+    background: url("/img/logo.gif") no-repeat scroll left center transparent;
+    font-size: 0;
+    height: 90px;
+    margin: 0 0 18px 20px;
+    width: 182px;
+}
+.logo a{
+   width: 182; height: 90px; display: block; font-size: 0;
+}
+/* ============================= */
+/* ! Layout for 1024 version   */
+/* ============================= */
+@media handheld, only screen and (max-width: 1024px) {
+
+
+}
+/* ============================= */
+/* ! Layout for 800 version   */
+/* ============================= */
+@media handheld, only screen and (max-width: 800px) {
+
+
+}
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+	.logo {
+		margin: 20px auto;
+	}
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+/*Fim Header logo*/
+
+/**
+* Barra menu meio
+*/
+.submenu {
+    background-color: #EFF8F9;
+    border-bottom: 1px solid #D8D9D3;
+  	color: #0086CF;
+  	padding: 5px 0 5px;
+}
+
+.submenu li {
+    float: left;
+    padding-right: 5px;
+    list-style: none outside none;
+}
+
+.menu-header{
+	background: none repeat scroll 0 0 #0086CF;
+    background-color: #0086CF; /* fallback flat color */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2580a2), to(#0086CF) ); /* for Chrome + Safari */
+    background-image: -moz-linear-gradient(  top, #2580a2, #083CCE ); /* for Firefox */
+    -webkit-box-shadow: 0 3px 5px #777; /* for Chrome + Safari */
+    -moz-box-shadow: 0 3px 5px #777; /* for Firefox */
+    box-shadow: 0 3px 5px #777; /* for Opera 10.5, IE9 and future-proofing */
+}
+.menu ul {
+    height: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ol, .menu ul { list-style: none; }
+
+.menu li{
+    float: left;
+    padding: 0;
+}
+.menu li a {
+   /* border-left: 1px solid #E4E4E4;*/
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+    line-height: 35px;
+    margin: 0;
+    padding: 0 25px;
+    text-align: center;
+}
+/**
+* FIM - Barra menu meio
+*/
+
+/**Footer*/
+.divisoria {
+    border-left: 1px solid;
+    padding-left: 8px;
+    border-color: #D8D9D3;
+}
+.footer-topo {
+	border-top: 1px solid #D8D9D3;
+    background-color:#EFF8F9;
+    color: #0086CF;
+}
+.footer-topo ul{
+	list-style: none;
+}
+.diretorio-indice{
+	 padding-bottom: 14px;
+}
+.margin_left{
+	margin-left: 40px;
+}
+.padding_bottom{
+	padding-bottom: 20px;
+}
+.padding_top{
+	padding-top: 20px;
+}
+.rodape-menu-servicos{
+	border-top: 2px solid #FFFFFF;
+	padding-top:5px; 
+}
+.rodape-menu-produtos .rodape-logo {
+    display: inline;
+    float: left;
+    height: 1.5em;
+    padding: 0.17em 1.67em 0 0;
+    width: 6em;
+}
+.rodape-logo{
+	margin-right: 20px;
+}
+.rodape-menu-produtos ul {
+    float: left;
+    padding-top: 0.16em;
+}
+.rodape-menu-servicos ul {
+    display: inline;
+    float: right;
+    font-size: 0.91em;
+}
+.rodape-menu-servicos span {
+    display: inline;
+    float: left;
+    font-size: 0.91em;
+    padding-left: 1px;
+}
+.rodape-menu-produtos .rodape-todos-sites {
+    float: right;
+    padding-top: 0.17em;
+}
+.conteudo-footer ul li {
+    display: inline;
+}
+.rodape-menu-produtos {
+    border-color: #FFFFFF;
+}
+.conteudo-footer a{
+	color: #FFFFFF;
+}
+.conteudo-footer {
+	background: none repeat scroll 0 0 #0086CF;
+    background-color: #0086CF; /* fallback flat color */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2580a2), to(#0086CF) ); /* for Chrome + Safari */
+    background-image: -moz-linear-gradient(  top, #2580a2, #083CCE ); /* for Firefox */
+    color: #FFFFFF;
+    padding-bottom: 28px;
+}
+.rodape-menu-produtos {
+	padding-top:20px;
+    clear: both;
+    margin-bottom: 0.92em;
+    overflow: hidden;
+    padding-bottom: 0.83em;
+    width: 100%;
+}
+
+/* ============================= */
+/* ! Layout for 1024 version   */
+/* ============================= */
+@media handheld, only screen and (max-width: 1024px) {
+
+
+}
+/* ============================= */
+/* ! Layout for 800 version   */
+/* ============================= */
+@media handheld, only screen and (max-width: 800px) {
+	.materia-titulo h1 {
+	    font-size: 20px;
+	    font-weight: bold;
+	    letter-spacing: -1px;
+	}
+	.materia-titulo h2 {
+	    color: #929292;
+	    font-size: 18px;
+	    font-weight: normal;
+	    letter-spacing: -1px;
+	    line-height: none;
+	    padding-top: 2px;
+	}
+	.header-materia{
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+}
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+	.footer-topo li{
+		display: inline;
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+	.footer-topo li{
+		display: inline;
+		float: left;
+		border-left: 1px solid #D8D9D3;
+	}
+}
+
+/**FIM Footer*/
+
+.acLoading {
+	background : url('/img/indicator.gif') right center no-repeat;
+}
+
+/***********************************************************************************************************
+* Canais estilos globais
+*/
+div.thumbnail.page-header.color-blue-light{
+	padding: 20px;	
+}
+
+div.boxe-header-like{
+	padding: 10px 10px 10px 20px;
+	background: #FFFFFF;
+	min-height: 50px;
+}
+/**
+* FIM Canais estilos globais
+***********************************************************************************************************/

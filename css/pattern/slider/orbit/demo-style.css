@@ -1,0 +1,43 @@
+/* These are just the demo styles and these can be removed and Orbit 
+will still work like a champ (except any content block needs a background which
+our demo gets from this sheet) */
+.container{
+	width: 100%;
+	padding: 0;
+}   
+.content { background: url(dummy-images/coffee.jpg); }
+.content h1 {
+	font-size: 40px; 
+	text-transform: uppercase; 
+	font-weight: bold; 
+	text-align: center;
+	margin-top: 180px;
+	color: #222;
+	line-height: 50px;  }
+.content h3 {
+	text-align: center; 
+	font-size: 22px; 
+	color: #222; }
+    
+/*	--------------------------------------------------
+	Global Reset & Standards
+	-------------------------------------------------- */
+	html, .orbit_grid body { margin: 0; padding: 0; }
+	.orbit_grid h1, .orbit_grid h2, .orbit_grid h3, .orbit_grid h4, .orbit_grid h5, .orbit_grid h6, .orbit_grid p, .orbit_grid blockquote, .orbit_grid pre, .orbit_grid a, .orbit_grid abbr, .orbit_grid acronym, .orbit_grid address, .orbit_grid cite, .orbit_grid code, .orbit_grid img, .orbit_grid small, .orbit_grid strike, .orbit_grid strong, .orbit_grid em, .orbit_grid sub, .orbit_grid sup, .orbit_grid tt, .orbit_grid dd, .orbit_grid dl, .orbit_grid dt, .orbit_grid li, .orbit_grid ol, .orbit_grid ul, .orbit_grid fieldset, .orbit_grid form, .orbit_grid label, .orbit_grid legend, .orbit_grid button, .orbit_grid table, .orbit_grid caption, .orbit_grid tbody, .orbit_grid tfoot, .orbit_grid thead, .orbit_grid tr, .orbit_grid th, .orbit_grid td, .orbit_grid section { margin: 0; padding: 0; border: 0; font-weight: normal; font-style: normal; font-size: 100%; line-height: 1; font-family: inherit; text-align: left; }
+	.orbit_grid table { border-collapse: collapse; border-spacing: 0; }
+	.orbit_grid ol, .orbit_grid ul { list-style: none; }
+
+	.orbit_grid body { background: #fff; font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 13px; line-height: 18px; text-shadow: 0 0 1px rgba(0,0,0,0.01); color: #555; }
+	
+	.orbit_grid h4 {
+		font-weight: bold; 
+		color: #222;
+		font-size: 15px; }
+		
+	.orbit_grid a { 
+		color: #00baff;
+		text-decoration: none; 
+		font-weight: bold;
+		font-size: 12px; }
+		
+	.orbit_grid a:hover { text-decoration: underline; }

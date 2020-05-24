@@ -147,7 +147,7 @@ div.container a.brand{
 .container a.brand .img{
 	height: 240px; 
 	width: 480px;
-	background: url("../img/foto_mauricio_header_480x240.png") no-repeat scroll 0 50% #000000;
+	background: url("/img/foto_mauricio_header_480x240.png") no-repeat scroll 0 50% #000000;
 }
 
 .container a.logo{
@@ -356,7 +356,7 @@ section .container .menu.img img{
 		width: 100%;
 	}	
 	div.container a.brand div.img {
-		background: url("../img/foto_mauricio_header_480x240.png") no-repeat scroll -110px 50% #000000;
+		background: url("/img/foto_mauricio_header_480x240.png") no-repeat scroll -110px 50% #000000;
     	-moz-box-shadow: 41px 0 50px #000000 inset;
     	-webkit-box-shadow: 41px 0 50px #000000 inset;
     	box-shadow: 41px 0 50px #000000 inset;
@@ -408,7 +408,7 @@ section .container .menu.img img{
 	}
 
 	div.container a.brand div.img {
-		background: url("../img/foto_mauricio_header_480x240.png") no-repeat scroll -110px 50% #000000;
+		background: url("/img/foto_mauricio_header_480x240.png") no-repeat scroll -110px 50% #000000;
     	-moz-box-shadow: 41px 0 50px #000000 inset;
     	-webkit-box-shadow: 41px 0 50px #000000 inset;
     	box-shadow: 41px 0 50px #000000 inset;
@@ -432,7 +432,7 @@ section .container .menu.img img{
 	    float: none;
 	}
 	div.container a.brand div.img{
-		background: url("../img/foto_mauricio_header_480x240.png") no-repeat scroll 0 50% #000000;
+		background: url("/img/foto_mauricio_header_480x240.png") no-repeat scroll 0 50% #000000;
     	-moz-box-shadow: 41px 0 50px #000000 inset;
     	-webkit-box-shadow: 41px 0 50px #000000 inset;
     	box-shadow: 41px 0 50px #000000 inset;
@@ -1406,14 +1406,14 @@ div.container footer div div.contato div ul li{
 }
 
 .footer-facebook{ 
-	background: url("../img/icon/social/facebook.png") no-repeat scroll 0 50% #4C5250;
+	background: url("/img/icon/social/facebook.png") no-repeat scroll 0 50% #4C5250;
 	border-radius: 4px 4px 4px 4px;
 	float: right;
 	height: 30px;
     width: 30px;
 }
 .footer-twitter{ 
-	background: url("../img/icon/social/twitter.png") no-repeat scroll 97% 50% #4C5250;
+	background: url("/img/icon/social/twitter.png") no-repeat scroll 97% 50% #4C5250;
 	border-radius: 4px 4px 4px 4px;
 	float: right;
 	height: 30px;

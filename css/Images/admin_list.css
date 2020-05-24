@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+		
+.img-list{
+	width: 132px;
+	height: 132px;
+}
+
+div.image-pop{
+	width: 132px;
+	float: left;
+}
+
+div.mL{
+	margin-left: 10px;
+}

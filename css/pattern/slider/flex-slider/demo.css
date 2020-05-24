@@ -1,0 +1,26 @@
+/* Reset Styles
+***********************/
+.flexslider html, .flexslider body, .flexslider div, .flexslider span, .flexslider applet, .flexslider object, .flexslider iframe, .flexsliderh1, .flexslider h2, .flexslider h3, .flexslider h4, .flexslider h5, .flexslider h6, .flexslider p, .flexslider blockquote, .flexslider pre, .flexslidera, .flexslider abbr, .flexslider acronym, .flexslider address, .flexslider big, .flexslider cite, .flexslider code, .flexsliderdel, .flexslider dfn, .flexslider em, .flexslider img, .flexslider ins, .flexslider kbd, .flexslider q, .flexslider s, .flexslider samp, .flexslidersmall, .flexslider strike, .flexslider strong, .flexslider sub, .flexslider sup, .flexslider tt, .flexslider var, .flexsliderb, .flexslider u, .flexslider i, .flexslider center, .flexsliderdl, .flexslider dt, .flexslider dd, .flexslider ol, .flexslider ul, .flexslider li, .flexsliderfieldset, .flexslider form, .flexslider label, .flexslider legend, .flexslidertable, .flexslider caption, .flexslider tbody, .flexslider tfoot, .flexslider thead, .flexslider tr, .flexslider th, .flexslider td, .flexsliderarticle, .flexslider aside, .flexslider canvas, .flexslider details, .flexslider embed, .flexsliderfigure, .flexslider figcaption, .flexslider footer, .flexslider header, .flexslider hgroup, .flexslidermenu, .flexslider nav, .flexslider output, .flexslider ruby, .flexslider section, .flexslider summary, .flexslidertime, .flexslider mark, .flexslider audio, .flexslider video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+.flexslider article, .flexslider aside, .flexslider details, .flexslider figcaption, .flexslider figure, .flexsliderfooter, .flexslider header, .flexslider hgroup, .flexslider menu, .flexslider nav, .flexslider section {display: block;}
+.flexslider body {line-height: 1;}
+.flexslider ol, .flexslider ul {list-style: none;}
+.flexslider blockquote, .flexslider q {quotes: none;}
+.flexslider blockquote:before, .flexslider blockquote:after, .flexsliderq:before, .flexslider q:after {content: ''; content: none;}
+.flexslider table {border-collapse: collapse; border-spacing: 0;}
+.flexslider strong {font-weight: bold;}
+.flexslider em {font-style: italic;}
+
+.flexslider body {background: url(body.png) repeat left top; font-family: 'Georgia', 'Arial', sans-serif;}
+#container-flex-slider .flexslider {width: 80%; max-width: 800px; margin: 0 auto;}
+
+.flexslider h2 {padding: 20px 0 30px; font-size: 18px; line-height: 22px; font-style: italic;}
+.flexslider h2 a {text-decoration: none; color: #427f9e;}
+.flexslider h2 a:hover {border-bottom: 1px dotted #427f9e;}
